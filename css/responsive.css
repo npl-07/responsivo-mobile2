@@ -8,9 +8,12 @@
         color: white;
     }
 
-    .nav-link:hover {
-        border-bottom: 2px solid white;
-        transition: all 0.2s ease-in-out;
+    .nav-link::after {
+        background: #ffffff;
+    }
+
+    .nav-link:hover::after {
+        background: white;
     }
 
     .nav-list {
